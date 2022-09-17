@@ -110,6 +110,15 @@ h1, h2, h3 {
     display: block;
 }
 
+@media only screen and (max-width: 600px) {
+    .banner-flamingo {
+      display: none !important;
+    }
+    .banner-flamingo-text {
+      display: none !important;
+    }
+}
+
 /******* TECHS *******/
 
 .tech-container {
